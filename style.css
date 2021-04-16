@@ -106,3 +106,36 @@ li {
 .student-container p {
   margin: 10px 0;
 }
+
+.learning {
+  background-color: #f5f5f5;
+  padding: 30px 70px;
+  min-height: 350px;
+}
+
+.learning-left {
+  float: left;
+  max-width: 35%;
+  margin-left: 60px;
+}
+
+.learning-right {
+  float: right;
+  margin-right: 60px;
+  vertical-align: middle;
+}
+
+.learning li {
+  list-style-type: square;
+  margin-bottom: 25px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer h4 {
+  margin: 30px;
+}
