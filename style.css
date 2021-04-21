@@ -23,3 +23,25 @@ body{
     font-weight: 600;
     font-size: 28px;
   }
+
+  .header {
+      background-image: url('./images/smiling-image.jpg');
+      background-size: cover;
+      background-position: 50% 25%;
+      padding: 60px 30px 40px 30px;
+  }
+
+  .picture{
+      border-radius: 50%;
+  }
+
+  .button{
+      background-color: #11a36a;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 700;
+      text-decoration: none;
+  }
