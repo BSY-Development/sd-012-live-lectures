@@ -17,18 +17,29 @@ let multiplicacao = num1 * num2;
 // Comparação
 let comparacao = num1 > num2;
 
-// Condicional
 
+// Condicional
 if(num1 > num2) {
     console.log("num1 wins");
 } else {
     console.log("num2 wins");
 }
 
-// Como saber se o num1 + num 2 é par?
+// Como saber se o num1 + num2 é par?
 let isEven = ((num1 + num2) % 2 ) == 0;
 
 console.log(isEven);
+
+
+let valor1 = 10;
+let valor2 = '10';
+
+if (valor1 === valor2) {
+  console.log('Valor é igual');
+} else {
+  console.log('Valor diferente');
+}
+
 
 // E o num1 + num2 + num3?
 isEven = ((num1 + num2 + num3) % 2 ) == 0;
@@ -38,7 +49,7 @@ console.log(isEven);
 
 // Switch
 
-let weekDay = 9;
+let weekDay = 10;
 
 switch(weekDay) {
     case 1:
