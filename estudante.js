@@ -16,27 +16,8 @@ estudante.endereco = {
 }
 
 for (let key in estudante) {
-  console.log(key, estudante[key]);
+  // console.log(key, estudante[key]);
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //----------------------------------------------------//
@@ -52,3 +33,17 @@ function trybe(estudanteTrybe) {
 
   return pessoaDesenvolvedora;
 };
+
+console.log(trybe(estudante));
+
+console.log(estudante);
+
+
+
+function soma (num1, num2) {
+  return num1 + num2;
+};
+
+let valorSomado = soma(2, 5);
+
+// console.log(valorSomado);
